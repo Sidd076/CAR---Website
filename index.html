@@ -1,0 +1,200 @@
+<html>
+
+<head>
+  <title>CAR REPAIR and DECOR</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://kit.fontawesome.com/405c1727d9.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script>
+    function displayTime() {
+      var dateTime = new Date();
+      var hrs = dateTime.getHours();
+      var min = dateTime.getMinutes();
+      var sec = dateTime.getSeconds();
+
+      document.getElementById('hours').innerHTML = hrs;
+      document.getElementById('minutes').innerHTML = min;
+      document.getElementById('seconds').innerHTML = sec;
+
+    }
+    setInterval(displayTime, 10);
+  </script>
+</head>
+
+<body>
+
+  <div class="menu-bar">
+    <ul>
+      <li><a href="#banner">HOME</a></li>
+      <li><a href="#footer">Contact US</a></li>
+      <li><a href="#feature">ABOUT US</a></li>
+      <li><a href="signin.html">lOGIN/SIGNUP</a></li>
+      <li>
+        <div class="container">
+          <span id="hours">00</span>
+          <span>:</span>
+          <span id="minutes">00</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+
+        </div>
+      </li>
+    </ul>
+
+  </div>
+  <section id="banner">
+    <img class="logo" src="logo (2).png" alt="" />
+    <div class="banner-text">
+      <h1>CAR REPAIR</h1>
+      <p>MAKES YOUR CAR MORE EFFICIENT</p>
+
+      <div class="banner-btn">
+        <a href="connect.html"><span></span>CONNECT WITH US</a>
+      </div>
+    </div>
+  </section>
+  <section id="feature">
+    <div class="title-text">
+      <p>FEATURES</p>
+      <h1>Why Choose Us</h1>
+    </div>
+
+    <div class="features-box">
+      <div class="features">
+        <h1>Free Delivery</h1>
+        <div class="features-desc">
+          <div class="features-text">
+            <p>
+              We provide free home delivery for products above Rs.499
+            </p>
+          </div>
+        </div>
+
+        <h1>7-Days Return </h1>
+        <div class="features-desc">
+          <div class="features-text">
+            <p>
+              Return A product within 7 days for any product you buy
+            </p>
+          </div>
+        </div>
+
+        <h1>Online Support </h1>
+        <div class="features-desc">
+          <div class="features-text">
+            <p>
+              We're always here for you Monday-Saturday 9AM to 9PM
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="features-img">
+        <img src="car-repair.webp" />
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial">
+    <div class="title-text">
+      <p>TESTIMONIALS</p>
+      <h1>Our clients says</h1>
+    </div>
+    <div class="testimonial-row">
+      <div class="testimonial-col">
+        <div class="user">
+          <img src="sid.jpg" />
+          <div class="user-info">
+            <h4>Sen Herman <i class="fa fa-twitter"></i></h4>
+            <small>@SenHerman</small>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, doctus dolorem mediocritatem id sed. Sit
+          an porro euismod oportere, duo te vitae audire percipitur, duo id
+          adhuc gubergren. Amet fierent detraxit in vix, dolorem aliquando
+          referrentur ne quo. No congue disputando pro, adhuc ignota cu nam.
+        </p>
+      </div>
+      <div class="testimonial-col">
+        <div class="user">
+          <img src="sid.jpg" />
+          <div class="user-info">
+            <h4>Sen Herman <i class="fa fa-twitter"></i></h4>
+            <small>@SenHerman</small>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, doctus dolorem mediocritatem id sed. Sit
+          an porro euismod oportere, duo te vitae audire percipitur, duo id
+          adhuc gubergren. Amet fierent detraxit in vix, dolorem aliquando
+          referrentur ne quo. No congue disputando pro, adhuc ignota cu nam.
+        </p>
+      </div>
+      <div class="testimonial-col">
+        <div class="user">
+          <img src="sid.jpg" />
+          <div class="user-info">
+            <h4>Sen Herman <i class="fa fa-twitter"></i></h4>
+            <small>@SenHerman</small>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, doctus dolorem mediocritatem id sed. Sit
+          an porro euismod oportere, duo te vitae audire percipitur, duo id
+          adhuc gubergren. Amet fierent detraxit in vix, dolorem aliquando
+          referrentur ne quo. No congue disputando pro, adhuc ignota cu nam.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <section id="footer">
+    <img src="xyz.png" class="footer-img" />
+    <div class="title-text">
+      <p>CONTACT</p>
+      <h1>Visit office Today</h1>
+    </div>
+    <div class="footer-row">
+      <div class="footer-left">
+        <h1>Opening hours</h1>
+        <p><i class="fa fa-clock-o"></i>Monday to Friday - 10 am to 8pm</p>
+        <p>Saturady to Sunday - 8am to 11pm</p>
+      </div>
+      <div class="footer-right">
+        <h1>Get In Touch</h1>
+        <p>New Pachha peth road,karnik nagar,Solapur</p>
+        <p>example@website</p>
+        <p>+91 9307334300</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+    var menu = document.getElementById("menu");
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function () {
+      if (sideNav.style.right == "-250px") {
+        sideNav.style.right = "0";
+        menu.src = "close.png";
+      } else {
+        sideNav.style.right = "-250px";
+        menu.src = "menu.png";
+      }
+    };
+
+  </script>
+</body>
+
+</html>
